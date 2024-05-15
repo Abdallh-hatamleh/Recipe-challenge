@@ -1,0 +1,14 @@
+* {box-sizing: border-box;}
+/* @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Young+Serif&display=swap'); */
+.image {border-radius: 5%; margin-top: 5%;}
+.img-container {display: flex;justify-content: center; align-items: center;}
+/* body {margin-inline: 20px;} */
+@font-face {
+    font-family: 'Young-serif';
+    src: url(https://fonts.googleapis.com/css2?family=Young+Serif&display=swap);
+}
+body { display: flex; background-color: #efe1d5}
+h1 {font-family:"Young-serif";}
+.white { background-color: white; margin: 20px;}
+.white *{margin-inline: 5%;}
