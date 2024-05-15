@@ -34,7 +34,7 @@ h1 {
 
 .list{ display: flex; flex-direction: column;}
 
-.list-items {display: flex; flex-direction: row; justify-content: space-between;}     
+.list-items {display: flex; flex-direction: row; justify-content: space-between; border-bottom: 1px solid rgba(56, 54, 54, 0.342);}     
 
 .prep-time {background-color: #fff7fc; }
 
@@ -42,3 +42,13 @@ h1 {
 li { color:hsl(332, 51%, 32%)}
 li span {color: black; margin: 15px;}
 h2 { color: hsl(14, 45%, 36%);}
+.ihatethis {margin-right:30%; color:hsl(332, 51%, 32%) ;}
+.list-items div {padding: 7px}
+
+/* Mobile section meow meow */
+@media only screen and (max-width: 375px) 
+{
+    .white {margin: 0; }
+    body {margin: 0;}
+    .image {border-radius: 0;}
+}
